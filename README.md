@@ -1,4 +1,4 @@
-This script enumerates and scans subdomains, then outputs a .csv file from nmap and a .txt file from assetfinder
+This script enumerates and scans subdomains, then outputs a .csv or .json file from nmap and a .txt file from assetfinder
  
 
 DESCRIPTION
@@ -32,4 +32,4 @@ Ensure you have installed the following tools:
 USAGE
 
 
-sudo bash ./script.sh -d [domain] -p -m [passive/active]
+sudo bash ./script.sh -d [domain] -o [csv/json] -p -m [active/passive]
