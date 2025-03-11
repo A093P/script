@@ -31,5 +31,6 @@ Ensure you have installed the following tools:
 
 USAGE
 
+To make it executable, go to the script directory and type: sudo chmod +x script.sh 
+Execute: sudo bash ./script.sh -d [domain] -o [csv/json] -p -m [active/passive]
 
-sudo bash ./script.sh -d [domain] -o [csv/json] -p -m [active/passive]
